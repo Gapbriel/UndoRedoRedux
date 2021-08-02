@@ -1,4 +1,8 @@
-# Redux Todos Example widh Undo/Redo functionality
+# Redux Todos Example with Undo/Redo functionality
+
+Este es el mejor ejemplo para obtener un conocimiento más profundo de como las actualizaciones de estado funcionan en Redux. Muestra como los reducers pueden delegar el manejo de acciones a otros reducers, y como usar React Redux para generar componentes contenedores para tus componentes presentacionales.Además muestra la funcionalidad de Deshacer/Rehacer .
+Este ejemplo incluye pruebas.
+
 
 This project template was built with [Create React App](https://github.com/facebookincubator/create-react-app), which provides a simple way to start React projects with no build configuration needed.
 
