@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.js": "/UndoRedoRedux/static/js/main.f928fbd4.chunk.js",
+    "main.js.map": "/UndoRedoRedux/static/js/main.f928fbd4.chunk.js.map",
+    "runtime-main.js": "/UndoRedoRedux/static/js/runtime-main.089c0fe5.js",
+    "runtime-main.js.map": "/UndoRedoRedux/static/js/runtime-main.089c0fe5.js.map",
+    "static/js/2.9368d267.chunk.js": "/UndoRedoRedux/static/js/2.9368d267.chunk.js",
+    "static/js/2.9368d267.chunk.js.map": "/UndoRedoRedux/static/js/2.9368d267.chunk.js.map",
+    "index.html": "/UndoRedoRedux/index.html",
+    "static/js/2.9368d267.chunk.js.LICENSE.txt": "/UndoRedoRedux/static/js/2.9368d267.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.089c0fe5.js",
+    "static/js/2.9368d267.chunk.js",
+    "static/js/main.f928fbd4.chunk.js"
+  ]
+}
