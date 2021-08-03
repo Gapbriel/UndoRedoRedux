@@ -4,7 +4,7 @@ const initialState = {
   history: [],
 };
 
-function addToHistory(state, action) {
+function addToHistory(state, action , todosToggle = []) {
   let history = [];
   if (state.todos.length) {
     let present = { id: action.id, text: action.text, completed: action.completed}
@@ -13,7 +13,7 @@ function addToHistory(state, action) {
       {
         past: [...state.todos],
         present,
-        future: action.type === 'ADD_TODO' ? [...state.todos , present] : [...state.todos.slice(0, state.todos.length - 1), present]
+        future: action.type === 'ADD_TODO' ? [...state.todos , present] : [...todosToggle]
       },
     ];
   }
@@ -51,7 +51,7 @@ const todos = (state = initialState, action) => {
         ...state,
         todos: todosToggle,
         presentHistory : state.presentHistory + 1,
-        history: addToHistory(state, action),
+        history: addToHistory(state, action , todosToggle),
       };
 
     case 'UNDO':

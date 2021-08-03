@@ -1,8 +1,10 @@
 {
+  "homepage": "https://gapbriel.github.io/UndoRedoRedux",
   "name": "todos",
   "version": "0.0.1",
   "private": true,
   "devDependencies": {
+    "gh-pages": "^3.2.3",
     "react-scripts": "^4.0.3"
   },
   "dependencies": {
@@ -18,7 +20,9 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "eject": "react-scripts eject",
-    "test": "react-scripts test --env=node"
+    "test": "react-scripts test --env=node",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "browserslist": [
     ">0.2%",
